@@ -5,6 +5,12 @@
     font-style:sans-serif;
     color: #7f7f90;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 
 /*----------Nav-Bar--------------*/
 .logo{
@@ -50,4 +56,32 @@
 }
 .play-bbtn{
     align-items: center;
+}
+
+/*------About-Section---------*/
+.icon-text ul{
+    padding: 0;
+}
+.icon-text ul i{
+    color: #ce1212;
+}
+
+.col-img{
+    height: 92vh;
+}
+
+/*------Why Us Section------*/
+.whyus-section{
+    background-color:#eeeeee ;
+}
+.why-box{
+    border: 1px solid red;
+    background-color: #ffffff;
+}
+.card-box {
+    border: 1px solid red;
+    background-color: #ffffff;
+}
+.why-button{
+    text-align: center;
 }
