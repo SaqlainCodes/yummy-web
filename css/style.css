@@ -1,0 +1,53 @@
+*body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style:sans-serif;
+    color: #7f7f90;
+}
+
+/*----------Nav-Bar--------------*/
+.logo{
+    font-size: 40px;
+    font-weight: 500;
+}
+.logo span{
+    color: #ce1212;
+}
+
+/*--------------Hero-Section--------------*/
+
+.hero-section{
+    background-color: #eeeeee;
+}
+
+.hero-col{
+    display: flex;
+    align-items: center;
+}
+.hero-text h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.hero-button{
+    padding: 8px 35px;
+    border-radius: 35px;
+    background-color: #ce1212;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+}
+.bttn-row{
+    align-items: center;
+}
+.bttn-row i{
+    font-size: 40px;
+    color: #ce1212;
+}
+.bttn-row span{
+ font-size: 20px;
+ font-weight: 500;
+}
+.play-bbtn{
+    align-items: center;
+}
