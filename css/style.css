@@ -75,13 +75,59 @@ a{
     background-color:#eeeeee ;
 }
 .why-box{
-    border: 1px solid red;
-    background-color: #ffffff;
+    background-color: #ce1212;
+    color: #fff;
 }
 .card-box {
-    border: 1px solid red;
-    background-color: #ffffff;
+   background-color: #fff;
+}
+
+.card-box h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon-bg{
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: #fae7e7;
+    color: #ce1212;
+    font-size: 30px;
 }
 .why-button{
     text-align: center;
+}
+.why-bttn{
+    padding: 8px 30px;
+    background-color:#dd5a5a;
+    border-radius: 30px;
+    color: #fff;
+    border:none ;
+}
+
+/*------Counter Section--------*/
+.counter-section{
+    background:linear-gradient(rgba(0,0 ,0 ,0.8),rgba(0 ,0 ,0 ,0.2)),url(/img/stats-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment:;
+}
+
+
+.counter-box{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 30px;
+    height: 100px;
+
+}
+.main-row{
+    height: 200px;
+    background-color: #ce1212;
+    margin: 0 auto;
 }
