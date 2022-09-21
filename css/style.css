@@ -131,3 +131,43 @@ a{
     background-color: #ce1212;
     margin: 0 auto;
 }
+
+
+/*-------Testimonials--------*/
+.testimonials-sec{
+    background-color:#eeeeee ;
+}
+#carouselExampleIndicators .bttn{
+    background-color: #ce1212;
+}
+.img-border{
+    border-radius: 50%;
+}
+
+
+
+.carousel-row{
+    justify-content: space-around;
+}
+
+/*--------Events---------*/
+
+.events-section{
+   background-color: #dd5a5a;
+}
+.img-height{
+   
+}
+
+.img-color{
+    background: rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.3);
+}
+
+
+/*--------Chef Section--------*/
+.cheif-Section{
+    background-color: #eeeeee;
+}
+.chef-box{
+    box-shadow:0px 0px 16px 1px rgba(1, 1, 1, 30%);
+}
