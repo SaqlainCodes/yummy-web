@@ -17,8 +17,27 @@ a{
     font-size: 40px;
     font-weight: 500;
 }
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header ul{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
 .logo span{
     color: #ce1212;
+}
+
+.nav-button{
+    padding: 7px 30px;
+    background: #ce1212;
+    color: #fff;
+    border-radius: 20px;
+    border:none;
 }
 
 /*--------------Hero-Section--------------*/
@@ -106,7 +125,17 @@ a{
 }
 
 /*------Counter Section--------*/
-.counter-section{
+
+ .counter-text{
+    align-items: center;
+    background-color: olive;
+    display: flex;
+    flex-direction: column;
+ }
+
+.count-section{
+    background-color: #dd5a5a;
+
     background:linear-gradient(rgba(0,0 ,0 ,0.8),rgba(0 ,0 ,0 ,0.2)),url(/img/stats-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -115,21 +144,10 @@ a{
     background-attachment:;
 }
 
-
-.counter-box{
+/*--------------Menu Section---------------*/
+.menu-bttn{
     display: flex;
-    align-items: center;
-    color: #fff;
     justify-content: center;
-    border: 1px solid red;
-    padding: 30px;
-    height: 100px;
-
-}
-.main-row{
-    height: 200px;
-    background-color: #ce1212;
-    margin: 0 auto;
 }
 
 
@@ -170,4 +188,63 @@ a{
 }
 .chef-box{
     box-shadow:0px 0px 16px 1px rgba(1, 1, 1, 30%);
+}
+
+.form-bg{
+    background: #f7f7f7;
+}
+.form-box{
+    justify-content: space-around;
+    
+    
+}
+
+.bttn-chef{
+    padding: 9px 30px;
+    background-color:#ce1212;
+    border-radius: 30px;
+    color: #fff;
+    border:none ;
+}
+
+/*--------Gallery Section---------*/
+.Gallery-sec{
+    background: #eeeeee;
+}
+
+
+/*-------Contact Us Section----------*/
+
+.adress{
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    padding: 20px 20px;
+    border-radius: 50%;
+    background: #ce1212;
+    color: #fff;
+
+}
+
+.contact-bg{
+    background: #f4f4f4;
+}
+
+/*-----Footer Section--------*/
+.footer-section{
+    background:#1f1f24;
+    color: #fff;
+}
+.social-icons ul{
+    display: flex;
+}
+
+.footer-icon{
+    padding: 8px 8px;
+    border-radius: 8px;
+    border-color: #fff;
+    background: #1f1f24;
+    color:#bcbcbe;
 }
