@@ -153,29 +153,13 @@ a{
 
 /*-------Testimonials--------*/
 .testimonials-sec{
-    background-color:#eeeeee ;
-}
-#carouselExampleIndicators .bttn{
-    background-color: #ce1212;
-}
-.img-border{
-    border-radius: 50%;
+    background: #eeeeee;
 }
 
 
 
-.carousel-row{
-    justify-content: space-around;
-}
 
 /*--------Events---------*/
-
-.events-section{
-   background-color: #dd5a5a;
-}
-.img-height{
-   
-}
 
 .img-color{
     background: rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.3);

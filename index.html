@@ -646,19 +646,17 @@
     <!--------Testimonials-------->
     <section class="testimonials-sec">
       <div class="container">
-        <div class="testimonials-text text-center pt-5">
+        <div class="testimonials-text text-center">
           <h6>Testimonials</h6>
           <h4>What Are They Saying About Us</h4>
         </div>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bttn" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2 bttn"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3 bttn"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4 bttn"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row justify-content-center p-5">
@@ -672,26 +670,20 @@
                   <img src="img/testimonials/testimonials-1.jpg" class="d-block w-100 img-fluid img-border" alt="...">
                 </div>
               </div>
-            
             </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center p-5">
+                <div class="col-lg-6">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic obcaecati aliquam assumenda nobis vero accusantium aperiam iste quaerat odio sapiente! Corrupti harum dolorum repellendus similique sapiente et quo unde quos!</p>
+                  <h4>Sara Wilsom</h4>
+                  <h6>Designer</h6>
+                </div>
 
-                <div class="carousel-items">
-                  <div class="row justify-content-center p-5">
-                    <div class="col-lg-6">
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic obcaecati aliquam assumenda nobis vero accusantium aperiam iste quaerat odio sapiente! Corrupti harum dolorum repellendus similique sapiente et quo unde quos!</p>
-                      <h4>Sara Wilsom</h4>
-                      <h6>Designer</h6>
-                    </div>
-    
-                    <div class="col-lg-2">
-                      <img src="img/testimonials/testimonials-2.jpg" class="d-block w-100 img-fluid img-border" alt="...">
-                    </div>
-                  </div>
+                <div class="col-lg-2">
+                  <img src="img/testimonials/testimonials-2.jpg" class="d-block w-100 img-fluid img-border" alt="...">
                 </div>
               </div>
             </div>
-
-
             <div class="carousel-item">
               <div class="row justify-content-center p-5">
                 <div class="col-lg-6">
@@ -705,21 +697,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="carousel-item">
-              <div class="row justify-content-center carousel-row p-5">
-                <div class="col-lg-6">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic obcaecati aliquam assumenda nobis vero accusantium aperiam iste quaerat odio sapiente! Corrupti harum dolorum repellendus similique sapiente et quo unde quos!</p>
-                  <h4>Sara Wilsom</h4>
-                  <h6>Designer</h6>
-                </div>
-
-                <div class="col-lg-2">
-                  <img src="img/testimonials/testimonials-4.jpg" class="d-block w-100 img-fluid img-border" alt="...">
-                </div>
-              </div>
-            </div>
-
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -730,14 +707,17 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
-
       </div>
     </section>
 
     <!------Events------>
     <section class="events-section">
       <div class="container pb-5">
+        <div class="events-text text-center pb-5 pt-5">
+          <h6>Events</h6>
+          <h4>Share Your Moments In Our Restaurant</h4>
+        </div>
+
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="card bg-dark text-white img-color">
@@ -754,9 +734,8 @@
             <div class="card bg-dark text-white">
               <img src="img/events-2.jpg" class="card-img" alt="...">
               <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title pt-5">Custom Parties</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text">Last updated 3 mins ago</p>
               </div>
             </div>
           </div>
@@ -765,7 +744,7 @@
             <div class="card bg-dark text-white">
               <img src="img/events-3.jpg" class="card-img" alt="...">
               <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title pt-5">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p class="card-text">Last updated 3 mins ago</p>
               </div>
@@ -773,7 +752,13 @@
           </div>
 
           <div class="item">
-            <img src="img/events-2.jpg">
+            <div class="card bg-dark text-white">
+              <img src="img/events-2.jpg" class="card-img" alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title pt-5">Custom Parties</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
           </div>
          
       </div>
@@ -919,7 +904,7 @@
     </section>
 
     <!-----Gallery Section----->
-    <section class="Gallery-sec">
+    <section class="Gallery-sec mt-5">
       <div class="container">
         <div class="gallery-text text-center pt-5 pb-5">
           <h6>GALLERY</h6>
