@@ -128,20 +128,18 @@ a{
 
  .counter-text{
     align-items: center;
-    background-color: olive;
     display: flex;
     flex-direction: column;
  }
 
 .count-section{
     background-color: #dd5a5a;
-
+    color: #fff;
     background:linear-gradient(rgba(0,0 ,0 ,0.8),rgba(0 ,0 ,0 ,0.2)),url(/img/stats-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    background-attachment:;
+    background-attachment:fixed;
 }
 
 /*--------------Menu Section---------------*/
